@@ -1,0 +1,10 @@
+"""SnipHaze launcher (run with pythonw so no console window appears)."""
+
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from sniphaze.__main__ import main  # noqa: E402
+
+main()
